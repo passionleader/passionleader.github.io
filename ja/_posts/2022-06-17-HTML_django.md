@@ -228,8 +228,8 @@ def getdata(request):
 ```
 4. formtag 프레임 작성
 ```html
-> ID PW를 보내고 난 뒤, getdata uri(사실상 views의 getdata 함수)로 이동하도록 한다
-> 마찬가지로 csrf_token 추가함
+<!-- ID PW를 보내고 난 뒤, getdata uri(사실상 views의 getdata 함수)로 이동하도록 한다 -->
+<!-- 마찬가지로 csrf_token 추가함 -->
 <body>
     <form action="./getdata" mothod="post">
         { % csrf_token% }
