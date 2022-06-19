@@ -119,10 +119,10 @@ urlpatterns = [
 <link href="../../static/frontapp/css/styles.css" rel="stylesheet" />
 다음과 같이아까 배운대로 하는 것이 신상에 좋을 것임
 <!DOCTYPE html>
-{% load static %}
+{ % load static % }
 ..(중략)
 <head>
-    <link href="{% static 'frontapp/css/styles.css' %}" rel="stylesheet" />
+    <link href="{ % static 'frontapp/css/styles.css' % }" rel="stylesheet" />
 ..(중략)
 ```
 
@@ -130,6 +130,9 @@ urlpatterns = [
 
 ```html
 <img class="masthead-avatar mb-5" src="../../static/frontapp/assets/img/avataaars.svg" alt="..." />
+혹은
+<img class="masthead-avatar mb-5" src="{ % static 'frontapp/assets/img/avataaars.svg' % }" alt="..." />
+특수문자 실수 없도록 조심한다
 ```
 
 10 그러면 성공적으로 CSS가 적용된 페이지를 확인할 수 있다
