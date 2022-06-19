@@ -206,7 +206,7 @@ urlpatterns = [
 
 <br>
 
-1. 방금 만들었던 ex2 앱의 views에서 formtag.html 페이지 등록하기
+1 . 방금 만들었던 ex2 앱의 views에서 formtag.html 페이지 등록하기
 
 ```python
 def func1(request):
@@ -219,14 +219,21 @@ def getdata(request):
     return HttpResponse()
 ```
 
-2.  프레임 생성
+2 .  프레임 생성
    * ![img_8.png](img_8.png)
-3. uri 등록
+
+
+3 . uri 등록
+
 ```python
     path('ex02/formtag', ex02.views.formtag),
     path('ex02/getdata', ex02.views.getdata),
 ```
-4. formtag 프레임 작성
+
+
+4 . formtag 프레임 작성
+
+
 ```html
 <!-- ID PW를 보내고 난 뒤, getdata uri(사실상 views의 getdata 함수)로 이동하도록 한다 -->
 <!-- 마찬가지로 csrf_token 추가함 -->
@@ -240,7 +247,9 @@ def getdata(request):
     </form>
 </body>
 ```
-5. 위 프레임의 name을 함수랑 맞춰 준다
+
+5 . 위 프레임의 name을 함수랑 맞춰 준다
+
 ```python
 def getdata(request):
     userid = request.POST.get('userid', None)
