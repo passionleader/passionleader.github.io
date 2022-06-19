@@ -230,7 +230,7 @@ def getdata(request):
 > 마찬가지로 csrf_token 추가함
 <body>
     <form action="./getdata" mothod="post">
-        {% csrf_token%}
+        { % csrf_token% }
         <input type="text" name="userid">
         <input type="password" name="userpw">
         <input type="submit" value="로그인">
