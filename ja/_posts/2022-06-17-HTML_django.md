@@ -207,6 +207,7 @@ urlpatterns = [
 <br>
 
 1. 방금 만들었던 ex2 앱의 views에서 formtag.html 페이지 등록하기
+
 ```python
 def func1(request):
     return render(request, "ex02/func1.html")
@@ -217,6 +218,7 @@ def formtag(request):
 def getdata(request):
     return HttpResponse()
 ```
+
 2.  프레임 생성
    * ![img_8.png](img_8.png)
 3. uri 등록
