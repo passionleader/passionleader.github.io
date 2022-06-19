@@ -14,7 +14,7 @@ category: django
 tags: [카카오클라우드스쿨]
 
 # 섬네일 이미지
-img: "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
+img: "https://user-images.githubusercontent.com/104918800/174474509-e394935a-7df6-4491-805d-bd606132c790.png"
 
 # 댓글 비활성화 여부
 comments_disable: false
@@ -61,11 +61,11 @@ python ./manage.py startapp frontapp
 
 3 . 템플릿을 다운 받아서 asset, css, js 폴더를  static 내부에 올린다
    * 필요에 따라 하위 디렉토리를 만든다
-   * ![img_13.png](img_13.png)
+   * ![img_13](https://user-images.githubusercontent.com/104918800/174474508-fda43fa5-5d28-4b81-8e4d-d8f68455e5f1.png)
 
 4 . html 파일은 templates 폴더를 만들어 집어 넣는다
    * 필요에 따라 하위 디렉토리를 만든다
-   * ![img_12.png](img_12.png)
+   * ![img_12](https://user-images.githubusercontent.com/104918800/174474520-9f7396b0-9671-4284-b09e-da1cc2d160a8.png)
 
 5 . settings.py에서 사용할 app, static 리소스 경로, templates 경로를 설정한다
 
@@ -136,7 +136,7 @@ urlpatterns = [
 ```
 
 10 . 그러면 성공적으로 CSS가 적용된 페이지를 확인할 수 있다
-   * ![img_14.png](img_14.png)
+   * ![img_14](https://user-images.githubusercontent.com/104918800/174474509-e394935a-7df6-4491-805d-bd606132c790.png)
 
 
 <br>

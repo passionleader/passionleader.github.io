@@ -118,7 +118,7 @@ date: 2022-06-17 10:00:10 +0900
 * class 태그
   * 비슷한 친구들 끼리 묶어버릴 때 클래스를 사용함
   * 폰트, 기능 등등 한 번에 적용시킬 수 있음
-  * ![img_6.png](img_6.png)
+  * ![img_6](https://user-images.githubusercontent.com/104918800/174474515-7c621b74-4d02-4674-af24-512c3913f7b2.png)
 
 <br>
 
@@ -143,7 +143,7 @@ date: 2022-06-17 10:00:10 +0900
 
 
 1. ex02 라는 앱 생성하기
-   * ![img.png](img.png)
+   * ![img](https://user-images.githubusercontent.com/104918800/174474510-a3b6c5c5-e777-42e2-8a58-a902169d6520.png)
 2. 앱 추가하기(settings.py)
 ```python
 INSTALLED_APPS = [
@@ -158,7 +158,7 @@ INSTALLED_APPS = [
 ]
 ```
 3. 어제 만든 템플릿에 대해 앱 별로 디렉토리 구분하고 템플릿 생성하기
-   * ![img_3.png](img_3.png)
+   * ![img_3](https://user-images.githubusercontent.com/104918800/174474511-b71e81ce-c00c-498f-add9-60af51fb0976.png)
 4. (디렉토리가 수정되었으니 어제 만든 views는 따로 수정해야 함)
 ```python
 ...
@@ -193,8 +193,8 @@ urlpatterns = [
 ```
 8. 결과
    * a와 /a는 전혀 다르다는 것을 알면 OK
-   * ![img_4.png](img_4.png) 상대 경로를 클릭했을 때
-   * ![img_5.png](img_5.png) 절대 경로를 클릭했을 때
+   * ![img_4](https://user-images.githubusercontent.com/104918800/174474513-efc7f45a-4652-48a3-ac7b-e63e42d3da9e.png) 상대 경로를 클릭했을 때
+   * ![img_5](https://user-images.githubusercontent.com/104918800/174474514-25861392-abe5-41f2-b8d8-caafff705f6b.png) 절대 경로를 클릭했을 때
 
 
 <br>
@@ -220,7 +220,7 @@ def getdata(request):
 ```
 
 2 .  프레임 생성
-   * ![img_8.png](img_8.png)
+   * ![img_8](https://user-images.githubusercontent.com/104918800/174474516-7272ac8b-814a-4169-8786-62bc633cfbf3.png)
 
 
 3 . uri 등록
@@ -272,10 +272,10 @@ def getdata(request):
 
 2. 경로설정
    * settings.py 내부 STATIC_URL을 찾아서 다음과 같이 설정한다
-   * ![img_9.png](img_9.png)
+   * ![img_9](https://user-images.githubusercontent.com/104918800/174474517-8644a158-7a46-4062-8a4b-22c1aac1d274.png)
 
 3. static 폴더에 이미지 하나를 가져와 본다
-   * ![img_10.png](img_10.png)
+   * ![img_10](https://user-images.githubusercontent.com/104918800/174474518-41f02424-70d8-43aa-a273-924c63395e17.png)
 4. 아까 사용했던 formtag html에 다음을 추가해 본다
 ```html
 <!DOCTYPE html>
