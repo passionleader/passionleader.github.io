@@ -135,5 +135,12 @@ urlpatterns = [
 특수문자 실수 없도록 조심한다
 ```
 
-10 그러면 성공적으로 CSS가 적용된 페이지를 확인할 수 있다
+10 . 그러면 성공적으로 CSS가 적용된 페이지를 확인할 수 있다
    * ![img_14.png](img_14.png)
+
+
+<br>
+
+> 참고로 github.io의 jekyll theme의 경우, 템플릿 문법을 쓰면 충돌이 일어나므로 <br>
+> { % static 'frontapp/css/styles.css' % } 형식으로 작성했는데 <br>
+> { 와 % 사이에 공백이 있으면 안된다
