@@ -1,0 +1,228 @@
+lng:
+  name: 한국어
+  # based on ISO_639-1 https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+  code: ko
+  # specifically needed for open-graph meta og:locale. if open_graph or html_lng_with_country_code not enabled in _data/conf/main.yml, it's not necessary.
+  # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
+  # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+  country: KR
+  switch_title: Kor
+  offer:
+    title: 언어
+    msg_page: 한국어로 보기
+    # if page translation is not available, use this.
+    msg_site: 한국어 홈페이지로
+
+date:
+  long: "%Y년%m월%d일"
+  day: "%d일"
+  year: "%Y년"
+  months: [1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월]
+
+not_found:
+  header: 맙소사! 대체 뭘 누른 거죠?
+  line1: 요청하신 페이지를 못 찾았아요🙄
+  line2: 메뉴 혹은 검색 기능을 사용해 보세요
+
+no_translation_tooltip: 번역 불가
+
+navigation:
+  brand_sub_text: Dream Realizer
+  contact_header: Contact
+
+color_scheme_switch_tooltip: 야간 모드
+
+search:
+  placeholder: 검색
+  noResultText: 검색 결과가 없어요.
+
+image_viewer:
+  load_error: 이미지를 불러올 수 없어요
+
+copyright:
+  additional_text: "  All rights reserved."
+
+creative_commons:
+  some_rights_reserved: Some rights reserved.
+  # check _data/owner.yml for license type.
+  by: 따로 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution 4.0 International License에 따라 사용이 허가됩니다.
+  by-nd: 따로 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NoDerivatives 4.0 International License에 따라 사용이 허가됩니다.
+  by-sa: 따로 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-ShareAlike 4.0 International License에 따라 사용이 허가됩니다.
+  by-nc: 따로 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NonCommercial 4.0 International License에 따라 사용이 허가됩니다.
+  by-nc-nd: 따로 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NoDerivatives 4.0 International License에 따라 사용이 허가됩니다.
+  by-nc-sa: 따로 명시되지 않는 한 이 웹 사이트의 콘텐츠는 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License에 따라 사용이 허가됩니다.
+
+# for 404 layout
+not-found:
+  title: "404"
+
+# for post layout
+post:
+  read_time:
+    unit: "분"
+    text: "정도면 다 읽어요"
+  pager_buttons:
+    older_post: "← 이전 포스트"
+    newer_post: "다음 포스트 →"
+    first_post: 처음
+    last_post: 마지막
+  comments:
+    disqus:
+      count_title: Comments
+      noscript: 댓글을 보려면 브라우저의 JavaScript를 차단해제 시켜주세요
+      click_to_load: "댓글 불러오기"
+      consent:
+        title: Comments (Disqus.com)
+        text: >
+          댓글 기능은 타사에서 호스팅합니다.  외부 콘텐츠를 표시하면 disqus.com의 $terms 및 $privacy_policy에 동의하는 것입니다.
+          <br>타겟팅된 광고를 선택 해제하려면 $settings_link를 열고 'opt-out' 버튼을 클릭하여 닫습니다. 여기로 돌아와 댓글을 표시합니다.
+        terms_link_text: 서비스 약관
+        privacy_link_text: 개인정보 보호정책
+        settings_link_text: 이 링크
+        button:
+          load_once: 이번 한 번만 보기
+          load_and_do_not_ask_again: 항상 보기
+  table_of_contents:
+    heading: Contents
+    tooltip:
+      move: 드래그해서 이동하기
+      close: 닫기
+  share:
+    heading: 공유하기
+    link_copied: 링크가 복사되었어요
+    tooltip:
+      # keys need to match with _data/share.yml
+      twitter: Twitter
+      facebook: Facebook
+      telegram: Telegram
+      linkedin: LinkedIn
+      email: Email
+      copy_link: Copy link
+
+# for post-list layout
+post-list:
+  title: Blog
+  button_name: 포스트
+  upside_down_tabs:
+    tab:
+      all: All
+      categories: 분류
+      tags: 태그
+      years: 년도별
+      clear: Clear
+      close: Close
+      tooltip:
+        clear: Clear
+        close: Close
+    msg:
+      property_list:
+        # keys need to match with /query/post-query.json
+        tags: Tag
+        category: Category
+        year: Year
+      # you can use these wildcards, {property} {value} {thumb}
+      resultFoundTitleFormat: "{property} : {thumb}"
+
+# for home layout
+home:
+  title: 반가워요😀
+  button_name: 홈으로
+  new_posts_title: 새 포스트
+  new_posts_show_more_button: 더 보기 ...
+  # you can use $site_brand in line1 and line2 to convert your site.data.owner.brand text
+  top_header_line1: "반가워요😀"
+  # if commented, top header will be a single line
+  top_header_line2: "passion leader의 블로그"
+
+# for archives layout
+archives:
+  title: 아카이브
+  button_name: 아카이브
+  page_header: 아카이브
+
+# for about layout
+about:
+  title: 정보
+  button_name: About
+  sub_title: "📧kss0097@gmail.com 💾https://github.com/passionleader"
+  email_title: email
+
+# for links layout
+links:
+  title: 참고사이트
+  button_name: 참고사이트
+  link_text: Web site
+  info_text: Info
+
+# for projects layout
+projects:
+  title: 참여프로젝트
+  button_name: 참여프로젝트
+  read_more_text: 자세하게 보기
+  read_less_text: 간략하게 보기
+
+# for privacy-policy layout
+privacy-policy:
+  title: &privacy_policy_title 개인정보 보호정책
+
+# seo meta this is needed for each language
+# If meta_description is not defined in front matter, it's created from (post / page) content,
+# if it has no content, this will be used for page description. It is also used in manifest.json
+meta_common_description: 이 블로그는 &meta_info $site_brand 테마를 사용하였습니다.
+
+auto_content:
+  title: 샘플 포스트(자동 생성됨)
+  greeting: "안녕하세요!"
+  text: *meta_info
+  more_info: 더 알아보기
+  auto_generated_text: 공부한 것들을 정리하기 위한 블로그를 꾸리려고 합니다
+
+cookie_consent:
+  privacy_policy_link_text: *privacy_policy_title
+  side_nav_setting_button_tooltip: &cookie_settings 쿠키 좀 드실래요?
+  panel_bar:
+    msg: >
+      이 웹사이트는 최적화를 위해 쿠키를 사용해요!
+      방문자님이 허용할 경우 활성화 되어요! $privacy_link
+    buttons:
+      accept: &accept_button 모두 허용할래요
+      settings: 직접 지정할래요
+      deny: &deny_button 거부할래요
+  panel_settings:
+    title: *cookie_settings
+    msg: >
+      이 웹사이트는 최적화를 위해 쿠키를 사용해요!
+      방문자님이 허용할 경우 활성화 되어요! 각 항목에 대해 $privacy_link 를 확인해 보세요
+    buttons:
+      accept: *accept_button
+      save: 선택 항목만 허용할게요
+      deny: *deny_button
+    always_active: 저는 필수적이랍니다!
+    consent_types:
+      necessary:
+        title: 필수적인 쿠키
+        info: >
+          이 쿠키는 웹사이트의 기능에 필수적이며 비활성화할 수 없어요.
+          안심하세요! 이 쿠키에는 개인을 식별할 수 있는 정보가 저장되지 않아요.
+          $gtag_info
+      analytics:
+        title: 성능 및 분석에 필요한 쿠키
+        info: $gtag_info
+      preferences:
+        title: 기능성 쿠키
+        info: $gtag_info
+      advertising:
+        title: 맞춤형 광고 쿠키
+        info: $gtag_info
+    gtag_info:
+      # from https://support.google.com/tagmanager/answer/10718549#consent-types
+      ad_storage: >
+        광고에 필요한 쿠키를 허용합니다.
+      analytics_storage: >
+        방문 시간 분석을 위해 쿠키를 허용합니다.
+      functionality_storage: >
+        웹사이트 또는 앱 기능(예: 언어 설정)을 저장을 위해 쿠키를 허용합니다.
+      personalization_storage: >
+        맞춤형 컨텐츠를 위해 쿠키를 허용합니다.
+      security_storage: >
+        인증 기능, 악용 방지, 기타 사용자 보호 등 보안과 관련된 저장을 위해 쿠키를 허용합니다.

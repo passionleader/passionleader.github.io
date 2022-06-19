@@ -1,0 +1,13 @@
+# you can move this content to front matter of [language]/tabs/projects.md
+###########################################################
+#                Projects Page Data
+###########################################################
+page_data:
+  main:
+    header: "프로젝트"
+    info: "아직 참여한 프로젝트가 없습니다"
+    text_color: "white"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":projects-heading.jpg"
+    back_color: "lightblue"
+

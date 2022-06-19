@@ -1,0 +1,12 @@
+# you can move this content to front matter of [language]/tabs/projects.md
+###########################################################
+#                Projects Page Data
+###########################################################
+page_data:
+  main:
+    header: "Projects"
+    info: "No projects have been participated in yet."
+    text_color: "white"
+    # if you don't want to use background image, comment it. back_color will be activated.
+    img: ":projects-heading.jpg"
+    back_color: "lightblue"
