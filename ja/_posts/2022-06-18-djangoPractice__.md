@@ -20,7 +20,7 @@ img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Icon-notepad.svg
 comments_disable: false
 
 # 작성 날짜
-date: 2022-06-17 11:02:10 +0900
+date: 2022-06-18 11:02:10 +0900
 
 # image_lazy_loader_posts = false 혹은 image_viewer_posts = false인 경우에만 사용하세요
 #image_viewer_on: true
