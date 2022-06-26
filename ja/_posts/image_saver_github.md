@@ -157,4 +157,31 @@
 ![img_89](https://user-images.githubusercontent.com/104918800/175811107-c917b722-0cf3-49bc-8883-1b489ed85f7f.png)
 ![img_90](https://user-images.githubusercontent.com/104918800/175811108-647e3166-4dea-423c-a666-f8f3da92c134.png)
 
+# git
+![img_106](https://user-images.githubusercontent.com/104918800/175814863-c9ec0821-dcc6-41f1-a8b2-cb094b4ebfc9.png)
+![img_107](https://user-images.githubusercontent.com/104918800/175814864-0e431a3c-80dc-40ec-a458-150c5560d323.png)
+![img_108](https://user-images.githubusercontent.com/104918800/175814866-5e7877a7-c855-4e1a-ab50-785167158a55.png)
+![img_109](https://user-images.githubusercontent.com/104918800/175814867-370d43c5-3f27-407c-b439-de6007967f66.png)
+![img_139](https://user-images.githubusercontent.com/104918800/175814869-03277368-8d0a-487a-85d0-146fce70147b.png)
+![img_91](https://user-images.githubusercontent.com/104918800/175814870-e30df388-1c81-43c3-bf26-f8641ce885ef.png)
+![img_92](https://user-images.githubusercontent.com/104918800/175814872-11381948-0b96-4699-bb49-aadc0f568598.png)
+![img_93](https://user-images.githubusercontent.com/104918800/175814873-243190d4-5244-48b1-ab32-755f6e6d07a8.png)
+![img_94](https://user-images.githubusercontent.com/104918800/175814875-c2c37a10-e59a-48be-9bcc-7c7c03dac4cd.png)
+![img_95](https://user-images.githubusercontent.com/104918800/175814876-e1111957-b4df-42d7-aa6d-bece858fc095.png)
+![img_96](https://user-images.githubusercontent.com/104918800/175814877-ea43e11c-14e4-4436-911c-16a0186fc64e.png)
+![img_97](https://user-images.githubusercontent.com/104918800/175814878-70e94894-b7a8-4357-8396-51e742191f5d.png)
+![img_98](https://user-images.githubusercontent.com/104918800/175814879-62af9317-688b-413d-84d9-36874caaee00.png)
+![img_99](https://user-images.githubusercontent.com/104918800/175814880-d610e759-3b62-410d-be3e-22c7161a2219.png)
+![img_100](https://user-images.githubusercontent.com/104918800/175814881-000d7678-5972-4527-9444-5a348a676c89.png)
+![img_103](https://user-images.githubusercontent.com/104918800/175814882-1b9d0077-13eb-49b9-a9d7-ebe9e20d4f65.png)
+![img_104](https://user-images.githubusercontent.com/104918800/175814884-dd4ec48c-f569-44a8-b736-4d9b1f219f01.png)
+![img_105](https://user-images.githubusercontent.com/104918800/175814885-663f1d6c-cf5f-4ea9-a415-09e891766ee4.png)
+
+# django14
+![img_112](https://user-images.githubusercontent.com/104918800/175814967-9be516f6-23ca-4e20-a6c0-e5b20e513c9e.png)
+![img_110](https://user-images.githubusercontent.com/104918800/175814969-bd3385d8-fe18-47ef-9b6c-fcaa7d956443.png)
+![img_111](https://user-images.githubusercontent.com/104918800/175814970-99b6ecb7-3f18-4c7f-9608-1c9ee220266c.png)
+
+
+
 
