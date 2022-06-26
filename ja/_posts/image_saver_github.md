@@ -128,5 +128,9 @@
 ![img_56](https://user-images.githubusercontent.com/104918800/175184930-743045b7-a694-445e-9b67-b668a4ecbdb7.png)
 ![img_61](https://user-images.githubusercontent.com/104918800/175184931-c88ebfcd-2158-4758-bc00-1484c23e1c86.png)
 
+# django8
+![img_68](https://user-images.githubusercontent.com/104918800/175810839-ef994954-a9d2-451c-9e38-071ec7f14b60.png)
+![img_66](https://user-images.githubusercontent.com/104918800/175810842-e56e2dbe-d541-4e7f-a0a8-aef2dfef7354.png)
+![img_67](https://user-images.githubusercontent.com/104918800/175810845-cd9f563d-94ca-4a5c-b0ef-8a817d3ea87b.png)
 
 
