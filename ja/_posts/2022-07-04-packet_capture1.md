@@ -111,7 +111,7 @@ date: 2022-07-04 17:03:22 +0900
      * ![img_65](https://user-images.githubusercontent.com/104918800/177148416-f2a56f78-4b97-407b-a60b-b8873f558f11.png) 여기서 ...!! 점은 arp table을 찾는 것임 <br><br>
 
 
-7 . 보안상 취약한 텔넷 구성하고 연결을 해보자 <br>
+6 . 보안상 취약한 텔넷 구성하고 연결을 해보자 <br>
    * 왜 SSH를 써야하는지 알게 될 것
    * 유저생성
      * username user1 password user1
