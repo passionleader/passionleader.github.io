@@ -10,8 +10,8 @@ title: djagno 실습 - 프론트엔드 가져와서 운영해 보기
 #author: initializer
 
 # 카테고리와 태그 설정
-category: django
-tags: [카카오클라우드스쿨]
+category: 카카오클라우드스쿨
+tags: [django]
 
 # 섬네일 이미지
 img: "https://user-images.githubusercontent.com/104918800/174474509-e394935a-7df6-4491-805d-bd606132c790.png"

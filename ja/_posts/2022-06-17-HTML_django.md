@@ -10,8 +10,8 @@ title: HTML 기초지식과 django
 #author: initializer
 
 # 카테고리와 태그 설정
-category: html
-tags: [카카오클라우드스쿨]
+category: 카카오클라우드스쿨
+tags: [django, html]
 
 # 섬네일 이미지
 img: "https://cdn.pixabay.com/photo/2018/05/18/15/30/web-design-3411373__340.jpg"
