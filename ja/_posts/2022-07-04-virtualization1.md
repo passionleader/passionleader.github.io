@@ -42,7 +42,7 @@ date: 2022-07-04 10:12:00 +0900
 
 # 가상화 기술과 클라우드
 ## 가상화 기술 <br>
-![img_28.png](img_28.png)
+![img_28](https://user-images.githubusercontent.com/104918800/177148487-1c3fbbec-5056-46b9-b05a-3706bc1193da.png)
 
 <br>
 
@@ -87,7 +87,7 @@ vNIC
 <br>
 
 > (추가) 명령 처리 과정
-* ![img_27.png](img_27.png)
+* ![img_27](https://user-images.githubusercontent.com/104918800/177148486-3cb29e25-2151-4acb-ac4a-92d78d79865d.png)
 
 <br>
 
@@ -105,6 +105,6 @@ vNIC
 2. Live Migration
    * On-Demand와 더불어 클라우드의 특징 중 하나
    * 동작 중에 지역간 이동 가능(**Live Migration**)
-   * ![img_22.png](img_22.png)
+   * ![img_22](https://user-images.githubusercontent.com/104918800/177148477-669977e6-8e6e-45d1-8cfb-c53fea0b958c.png)
 
 
