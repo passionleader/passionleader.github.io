@@ -50,35 +50,35 @@ date: 2022-07-04 11:22:40 +0900
 <hr>
 
 ## Virtual machine 설치
-1. file - new virtual machine <br>
-2. 일반 설치
-   * ![img_2](https://user-images.githubusercontent.com/104918800/177148430-e4862e22-f503-46a8-8349-625649d37c87.png) <br>
-3. 다운받은 centos를 설치한다 - ISO 파일을 통해 설치
-   * ![img_4](https://user-images.githubusercontent.com/104918800/177148436-c5c240b4-1adb-4402-9524-2854cb2151b1.png) <br>
-4. 일단 테스트로 박는다
-   * ![img_5](https://user-images.githubusercontent.com/104918800/177148437-dde80f69-caae-4289-a950-55ef8e49e3d3.png) <br>
-5. virtual machine 이름 설정에서
+1 . file - new virtual machine <br>
+2 . 일반 설치 <br>
+   * ![img_2](https://user-images.githubusercontent.com/104918800/177148430-e4862e22-f503-46a8-8349-625649d37c87.png) <br><br>
+3 . 다운받은 centos를 설치한다 - ISO 파일을 통해 설치 <br>
+   * ![img_4](https://user-images.githubusercontent.com/104918800/177148436-c5c240b4-1adb-4402-9524-2854cb2151b1.png) <br><br>
+4 . 일단 테스트로 박는다 <br>
+   * ![img_5](https://user-images.githubusercontent.com/104918800/177148437-dde80f69-caae-4289-a950-55ef8e49e3d3.png) <br><br>
+5 . virtual machine 이름 설정에서 <br>
    * '너는 운영체제가 아닌 프로그램일 뿐이야'
    * 운영체제랑 헷갈리지 않도록 따로 폴더에서 관리를 해 주겠다
-   * ![img_6](https://user-images.githubusercontent.com/104918800/177148439-6e98c4aa-da4e-4257-bfb7-7244497dce62.png) <br>
-6. 디스크 공간을 제공해야 함
-   * ![img_7](https://user-images.githubusercontent.com/104918800/177148442-555c1a1d-4310-4b00-8397-16d205169cfb.png) <br>
-7. (중요)다음을 해제하고 finish
-   * ![img_8](https://user-images.githubusercontent.com/104918800/177148444-bf2e05fa-0621-4da5-a509-2d1545da401b.png) <br>
-8. 이제 깡통PC가 생성되었으나, 추가 세팅이 필요하다
-   1. ![img_10](https://user-images.githubusercontent.com/104918800/177148448-725c72ee-a6af-4035-a864-d3ad4ac41d24.png) <br>
+   * ![img_6](https://user-images.githubusercontent.com/104918800/177148439-6e98c4aa-da4e-4257-bfb7-7244497dce62.png) <br><br>
+6 . 디스크 공간을 제공해야 함 <br>
+   * ![img_7](https://user-images.githubusercontent.com/104918800/177148442-555c1a1d-4310-4b00-8397-16d205169cfb.png) <br><br>
+7 . (중요)다음을 해제하고 finish <br>
+   * ![img_8](https://user-images.githubusercontent.com/104918800/177148444-bf2e05fa-0621-4da5-a509-2d1545da401b.png) <br><br>
+8 . 이제 깡통PC가 생성되었으나, 추가 세팅이 필요하다 <br>
+   1. ![img_10](https://user-images.githubusercontent.com/104918800/177148448-725c72ee-a6af-4035-a864-d3ad4ac41d24.png) <br><br>
    2. 메모리 설정
-      * ![img_11](https://user-images.githubusercontent.com/104918800/177148451-c422d634-4417-44e0-a05b-2e14cafa0a27.png) <br>
+      * ![img_11](https://user-images.githubusercontent.com/104918800/177148451-c422d634-4417-44e0-a05b-2e14cafa0a27.png) <br><br>
    3. 듀얼코어 설정
-      * ![img_12](https://user-images.githubusercontent.com/104918800/177148454-6dc40f01-171b-406e-9135-6f12935faf90.png) <br>
+      * ![img_12](https://user-images.githubusercontent.com/104918800/177148454-6dc40f01-171b-406e-9135-6f12935faf90.png) <br><br>
    4. 아래 CD는 필요없으니 지운다
-      * ![img_13](https://user-images.githubusercontent.com/104918800/177148456-094718a1-04b9-4c77-8187-c3bc91ce3eb2.png) <br>
+      * ![img_13](https://user-images.githubusercontent.com/104918800/177148456-094718a1-04b9-4c77-8187-c3bc91ce3eb2.png) <br><br>
    5. NAT을 bridge로 변경
-      * ![img_14](https://user-images.githubusercontent.com/104918800/177148458-4f06eba3-cc4e-42ef-9da4-4d32521c2d05.png) <br>
+      * ![img_14](https://user-images.githubusercontent.com/104918800/177148458-4f06eba3-cc4e-42ef-9da4-4d32521c2d05.png) <br><br>
    6. 이 세가지도 지운다
-      * ![img_20](https://user-images.githubusercontent.com/104918800/177148473-ab7684de-fd05-4fba-9867-0de241df0f58.png)  <br>
+      * ![img_20](https://user-images.githubusercontent.com/104918800/177148473-ab7684de-fd05-4fba-9867-0de241df0f58.png)  <br><br>
    7. 최종
-      * ![img_15](https://user-images.githubusercontent.com/104918800/177148459-bfac18dd-db82-4bf3-a037-66c555dc70c2.png) <br>
+      * ![img_15](https://user-images.githubusercontent.com/104918800/177148459-bfac18dd-db82-4bf3-a037-66c555dc70c2.png) <br><br>
    8. 마우스를 바깥으로 빼려면 ctrl + alt
 
 <br>
@@ -160,8 +160,8 @@ date: 2022-07-04 11:22:40 +0900
 <hr>
 
 
-## 간단한 네트워크 실습
-1. 터미널창 열어서 ifconfig
+## 간단한 네트워크 실습 <br>
+1 . 터미널창 열어서 ifconfig 확인해보기<br>
 <br>
 
 > (정보) ifconfig의 Interface
@@ -177,37 +177,33 @@ date: 2022-07-04 11:22:40 +0900
 * virbr: 가상 브릿지
   * 위에서 말했듯, 물리적(실제) 랜카드로부터 할당된 가상 브릿지의 정보를 볼 수 있음
   * 이 가상 브릿지는 NAT에 사용되며, 이를 통해 외부 네트워크와 통신을 할 수 있다!
-  * 아직은 자세히 몰라도 됨
-<br>
+  * 아직은 자세히 몰라도 됨 <br><br>
 
-2. 구글 핑
+2 . 구글 핑 <br>
    * ![img_31](https://user-images.githubusercontent.com/104918800/177148496-9e1d948f-35ea-4b40-a358-49407e831cfb.png)
-   * ping이라는 총으로 google에 3번 발사하겠다
-<br>
+   * ping이라는 총으로 google에 3번 발사하겠다 <br><br>
 
-3. 강사님 PC로 핑
-   * ![img_32](https://user-images.githubusercontent.com/104918800/177148500-9793a758-b05c-49fe-a62c-8fbd8d679e20.png)
-<br>
+3 . 강사님 PC로 핑 <br>
+   * ![img_32](https://user-images.githubusercontent.com/104918800/177148500-9793a758-b05c-49fe-a62c-8fbd8d679e20.png) <br><br>
 
-4. yum -d httpd
+4 . yum -d httpd <br>
  * 오류가 뜨면
  * ![img_33](https://user-images.githubusercontent.com/104918800/177148503-d79cc6dc-891c-446a-a53c-a75e91a385cd.png)
- * kill -9 [pid]로 해당 프로세스를 죽인다
-<br>
+ * kill -9 [pid]로 해당 프로세스를 죽인다 <br><br>
 
-5. config 파일 수정해 보기
+5 . config 파일 수정해 보기 <br>
    * 기본적으로 httpd 작동 과정에 config파일이 참조된다
-     * ![img_34](https://user-images.githubusercontent.com/104918800/177148505-37866025-b347-42be-882a-b8efb6c68fb2.png)
+     * ![img_34](https://user-images.githubusercontent.com/104918800/177148505-37866025-b347-42be-882a-b8efb6c68fb2.png) <br><br>
    * 터미널 창에서 httpd config 파일의 경로로 이동
-     * cd /etc/httpd/conf
+     * cd /etc/httpd/conf <br><br>
    * 리슨하고 있는 포트 확인 가능
-     * ![img_35](https://user-images.githubusercontent.com/104918800/177148507-033ef637-717b-437d-8354-f1a9841b4614.png)
+     * ![img_35](https://user-images.githubusercontent.com/104918800/177148507-033ef637-717b-437d-8354-f1a9841b4614.png) <br><br>
    * 웹서버 접속 시 보여줄 첫번 째 파일의 경로와 파일, 바꿀 수 있다
      * ![img_36](https://user-images.githubusercontent.com/104918800/177148508-59bf0a5f-d32b-409d-acdc-aca037892bad.png)
-     * ![img_37](https://user-images.githubusercontent.com/104918800/177148511-ea2f906e-7b4a-460a-b20e-8c5f2ba97fa1.png)
-<br>
+     * ![img_37](https://user-images.githubusercontent.com/104918800/177148511-ea2f906e-7b4a-460a-b20e-8c5f2ba97fa1.png) <br><br>
 
-6. httpd 시작 페이지를 네이버 화면으로 바꿔 보기
+
+6 . httpd 시작 페이지를 네이버 화면으로 바꿔 보기 <br>
    * 디렉터리 이동
      * cd /var/www/html
    * 네이버 화면을 html로 생성한다
@@ -219,13 +215,12 @@ date: 2022-07-04 11:22:40 +0900
    * localhost (루프백) 접속
      * ![img_39](https://user-images.githubusercontent.com/104918800/177148513-87b25643-e7a0-486f-ba15-276e09a4bf04.png)
    * 옆사람 vm으로는 방화벽때문에 접속이 안된다
-     * ![img_40](https://user-images.githubusercontent.com/104918800/177148515-d57ba494-8a44-401f-995a-63eb12616c1f.png)
-<br>
+     * ![img_40](https://user-images.githubusercontent.com/104918800/177148515-d57ba494-8a44-401f-995a-63eb12616c1f.png) <br><br>
 
-7. 방화벽 해제
+7 . 방화벽 해제 <br>
 * systemctl stop firewalld
 * 내 VM에서 다시 옆사람의 VM으로 접속해 보자(성공)
-* ![img_42](https://user-images.githubusercontent.com/104918800/177148519-f8e4dd6b-3150-4a06-b9e9-29eec9afe682.png)
+* ![img_42](https://user-images.githubusercontent.com/104918800/177148519-f8e4dd6b-3150-4a06-b9e9-29eec9afe682.png) <br><br>
 
 <br>
 <hr>
