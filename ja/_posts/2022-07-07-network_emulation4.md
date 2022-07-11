@@ -49,7 +49,7 @@ date: 2022-07-07 10:03:22 +0900
 ## 외부에서 내부망으로 간단한 접속테스트(Linux - httpd)
 
 1 . 다음과 같이 설정한다
-  * ![img_203.png](img_203.png)
+  * ![img_203](https://user-images.githubusercontent.com/104918800/178200000-35e57360-0c73-4e90-86bc-8e22b3d20cc6.png)
 
 <br>
 
@@ -81,43 +81,43 @@ SSK(config-if)#do ping 192.168.199.199
 <br>
 
 3 . 라우팅 테이블에 강사님 라우터 부분 추가해서 핑 던져보기
-* ![img_204.png](img_204.png)
+* ![img_204](https://user-images.githubusercontent.com/104918800/178200001-6fbab7e6-30b9-4d1f-80f3-45394a2e9c59.png)
 * 라우터랑 직접 연결되지 않은 부분을 연결할 수 있도록 하는 것임
-* ![img_205.png](img_205.png)
+* ![img_205](https://user-images.githubusercontent.com/104918800/178200003-47798554-3c5d-4d22-a72d-ca8be2ff6c9e.png)
 
 <br>
 
 4 . 클라우드 2 부분은 리눅스임, VMnet3으로 설정
-* ![img_210.png](img_210.png)
+* ![img_210](https://user-images.githubusercontent.com/104918800/178200009-841d5d3e-3a96-49af-85aa-042fd88f3702.png)
 <br>
 
 5 . VM웨어의 vNIC 설정, 리눅스와 연결시키기 위해 IP주소를 다음과 같이 변경
-* ![img_209.png](img_209.png)
-* ![img_211.png](img_211.png)
+* ![img_209](https://user-images.githubusercontent.com/104918800/178200008-6c4a2a53-f996-45e0-b226-6036d6f09e32.png)
+* ![img_211](https://user-images.githubusercontent.com/104918800/178200011-bbef2932-783c-4012-a3f8-f0a55d1be0f5.png)
 <br>
 
 6 . 리눅스 내의 네트워크 설정
-* ![img_215.png](img_215.png)
+* ![img_215](https://user-images.githubusercontent.com/104918800/178200019-ff741ea0-d18d-4791-b70a-110a02b73adc.png)
 <br>
 
 7 . 다음 명령어를 사용해서 httpd페이지 생성, httpd서비스 실행
-* ![img_212.png](img_212.png)
-* ![img_213.png](img_213.png)
+* ![img_212](https://user-images.githubusercontent.com/104918800/178200013-ed37724c-2129-4cea-a052-d8e8be8ccc91.png)
+* ![img_213](https://user-images.githubusercontent.com/104918800/178200016-f242377c-5364-4553-887e-64f953955d66.png)
 <br>
 
 8 . 방화벽 종료
-* ![img_214.png](img_214.png)
+* ![img_214](https://user-images.githubusercontent.com/104918800/178200017-5c2f25d9-a083-4951-a170-c145039b72f3.png)
 <br>
 
 9 . 외부에서 주소 입력시 접속가능
-* ![img_216.png](img_216.png)
+* ![img_216](https://user-images.githubusercontent.com/104918800/178200021-3a92a388-33db-408b-aa58-6b735415803e.png)
 <br>
 <br>
 <hr>
 
 ## 외부에서 PAT로 구성된 내부망으로 접속하기 (Linux - ssh)
 
-오늘 할 것 <br>  ![img_217.png](img_217.png) <br>
+오늘 할 것 <br>  ![img_217](https://user-images.githubusercontent.com/104918800/178200022-3297149a-330b-4703-9b0e-70c559d48ed0.png) <br>
 * 외부에서 http://라우터fa0/0주소:8001 접속시 본사 내부의 웹서버가 보여야 한다
 * 외부에서 ssh -l root -p 라우터의fa0/0주소 로 연결하면 리눅스로 ssh 연결되어야 한다
   * step1: 각 인터페이스에 IP주소를 입력해서 동일 네트워크간 통신 가능여부 확인
@@ -232,4 +232,4 @@ SSK(config-if)#do ping 192.168.199.199
 
 
 ## 구조
-* ![img_274.png](img_274.png)
+* ![img_274](https://user-images.githubusercontent.com/104918800/178200235-b0b997e8-a1a0-474a-b8ec-0830af8298d4.png)

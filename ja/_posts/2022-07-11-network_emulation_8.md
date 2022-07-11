@@ -49,15 +49,15 @@ date: 2022-07-11 10:48:51 +0900
 ## VLAN 개념 정리를 위한 실습
 
 * 다음과 같이 구성한다
-  * ![img_296.png](img_296.png)
+  * ![img_296](https://user-images.githubusercontent.com/104918800/178200279-c212a19a-0450-4330-beaf-c467c870fa55.png)
   * 참고: 16개의 스위치가 있는 이더넷 스위치
   * 헷갈리니까 아이콘은 Switch 모양으로 바꿀 것임
 
 <br>
 
 * 연결 구성
-  * ![img_298.png](img_298.png)
-  * ![img_300.png](img_300.png)
+  * ![img_298](https://user-images.githubusercontent.com/104918800/178200282-1673418a-a8a6-4335-a06a-6d69fa2dc8da.png)
+  * ![img_300](https://user-images.githubusercontent.com/104918800/178251088-57ed873a-d1c6-433d-95f8-5093612a78ba.png)
 
 <br>
 
@@ -251,13 +251,13 @@ ping 10.10.10.11 하면 잘 될 것임
 ## VM ware 활용한 심화 실습
 
 * 클론 진행
-  * ![img_301.png](img_301.png)
+  * ![img_301](https://user-images.githubusercontent.com/104918800/178251029-758b5d66-bd70-4778-b2b7-099c2ae3344d.png)
   * full clone으로 진행
 
 <br>
 
 * 네트워크 설정
-  * ![img_302.png](img_302.png)
+  * ![img_302](https://user-images.githubusercontent.com/104918800/178251031-ab892b1b-6eb3-43fb-9bb2-bf11d1b7b3ff.png)
 
 <br>
 
@@ -268,7 +268,7 @@ ping 10.10.10.11 하면 잘 될 것임
 <br>
 
 * GNS에서 다음과 같이 구성
-  * ![img_303.png](img_303.png)
+  * ![img_303](https://user-images.githubusercontent.com/104918800/178251034-a5f9e012-4c3a-4d1c-9ed1-2835c79f2c70.png)
 
 <br>
 
@@ -313,7 +313,7 @@ SW1(config-if)#sw mode trunk
 <br>
 
 * 여기까지의 구조
-  * ![img_310.png](img_310.png)
+  * ![img_310](https://user-images.githubusercontent.com/104918800/178251053-d5b1a865-6bfe-4426-9312-82738eb63f37.png)
 
 
 <br>
@@ -346,9 +346,9 @@ R1(config-subif)#ip add 172.16.2.2 255.255.255.0
 
 * Vmware의 CentOS1, 2 파워온
 * CentOS2의 IP 구성을 다음과 같이 진행
-  * ![img_307.png](img_307.png)
+  * ![img_307](https://user-images.githubusercontent.com/104918800/178251047-a4581d35-532e-4803-8772-20650e34d029.png)
 * CentOS1의 IP 구성을 다음과 같이 진행
-  * ![img_308.png](img_308.png)
+  * ![img_308](https://user-images.githubusercontent.com/104918800/178251050-4ae0f160-2aa7-4495-99fe-e7b2f19f2036.png)
 
 
 <br>

@@ -48,10 +48,10 @@ date: 2022-07-07 15:03:22 +0900
   * https://velog.io/@ptah0414/22-07-08-TIL
 
 
-1. 구성 <br> ![img_257.png](img_257.png)  <br> <br>
-2. 인터넷  <br> ![img_255.png](img_255.png)  <br> <br>
-3. HQ 라우터  <br> ![img_256.png](img_256.png)  <br> <br>
-4. 연결  <br> ![img_258.png](img_258.png)  <br> <br>
+1. 구성 <br> ![img_257](https://user-images.githubusercontent.com/104918800/178200197-5b3b34ed-d3b5-4749-a8a2-667d319ca96b.png)  <br> <br>
+2. 인터넷  <br> ![img_255](https://user-images.githubusercontent.com/104918800/178200193-b9ea51ee-ddba-4f23-a538-a71873ba5b5e.png)  <br> <br>
+3. HQ 라우터  <br> ![img_256](https://user-images.githubusercontent.com/104918800/178200195-7b4f8063-55f9-4418-b0a5-e99e486e0f54.png)  <br> <br>
+4. 연결  <br> ![img_258](https://user-images.githubusercontent.com/104918800/178200198-9be42ff6-ba22-4cd3-a76e-d6f23513ad61.png)  <br> <br>
 5. 중간퀴즈
    * 우리회사는 내부적으로 사설주소를 사용한다. 전체 범위는 192.168.2.1/24를 사용하고 이를 적절히 서브넷팅하여 각 네트워크에 할당할 계획이다
    * DEV 팀은 100개의 IP가 필요하다
@@ -70,4 +70,4 @@ date: 2022-07-07 15:03:22 +0900
    3. SALES팀: 16씩 나눠야 함. 192.168.2.160 ~ 192.168.2.175(/24, 255.255.255.240) 192.168.2.160
    4. 게이트웨이 주소: 4로 나눔(실사용2개). 192.168.2.176 ~ 192.168.2.179(/4, 255.255.255.252)  <br> <br>
 7. 따라서 최종적인 모양은 이런 양상일 예정
-   * ![img_266.png](img_266.png)
+   * ![img_266](https://user-images.githubusercontent.com/104918800/178200215-10917942-b80d-4f15-9e1f-8edd97a15600.png)
