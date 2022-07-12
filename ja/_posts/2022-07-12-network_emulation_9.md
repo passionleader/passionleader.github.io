@@ -43,8 +43,8 @@ date: 2022-07-12 18:48:51 +0900
 # ACL 실습 (총 실습)
 
 1. 다음과 같이 구성한다
-   * ![img_317.png](img_317.png) <br> DSW: Router로 만듦, endpoint: Cloud로 만듦
-   * ![img_315.png](img_315.png) & ![img_316.png](img_316.png)
+   * ![img_317](https://user-images.githubusercontent.com/104918800/178500269-f66270a8-877f-4994-8503-2cce4e852014.png) <br> DSW: Router로 만듦, endpoint: Cloud로 만듦
+   * ![img_315](https://user-images.githubusercontent.com/104918800/178500261-e9cf1bf5-7440-4be2-99c3-2b8b74b5e347.png) & ![img_316](https://user-images.githubusercontent.com/104918800/178500264-47544c5f-b930-4cec-b239-3f5c12e71163.png)
    * 실수를 하나 했는데, 서버 쪽은 vmnet10이 아니라 1임 <br> <br>
 
 2. 시나리오
@@ -69,8 +69,8 @@ date: 2022-07-12 18:48:51 +0900
    * IP설정 -> 라우팅 -> NAT 구성 -> 필터링, 보안 <br><br>
 
 4. 이렇게 해야 할 듯
-   * ![img_319.png](img_318.png)
-   * ![img_319.png](img_319.png) <br><br>
+   * ![img_318](https://user-images.githubusercontent.com/104918800/178500271-b5f08fc5-d3f9-4955-b37a-968eb0768f94.png)
+   * ![img_319](https://user-images.githubusercontent.com/104918800/178500273-2f2f37a6-3d32-4a19-9b4e-fa746e7af94f.png) <br><br>
 
 <br>
 <hr>
@@ -123,7 +123,7 @@ FastEthernet1/0            10.10.10.1      YES manual up                    up
 
 <br>
 
-3 . 현재까지의 구성 요소 <br> ![img_321.png](img_321.png)
+3 . 현재까지의 구성 요소 <br> ![img_321](https://user-images.githubusercontent.com/104918800/178500276-374926ac-3b2d-4eb7-8c23-132d0711da1e.png)
 
 <br>
 
@@ -274,7 +274,7 @@ DSW2(config-if)#sw access vlan 20
      * 최신 경로를 계속해서 찾아 유지하려고 한다 (그래서 트래픽이 많이 발생할 수 있음) <br><br>
 
 * 필요한 연결
-  * ![img_320.png](img_320.png)
+  * ![img_320](https://user-images.githubusercontent.com/104918800/178500275-2e097e88-5389-4ef2-aad2-17a4f82ccafc.png)
   * HQ
     * 인터넷과의 통신을 위해 Default Route
     * 지사 내부와의 통신을 위해 Static Route
@@ -355,7 +355,7 @@ HQ(config)#ip nat inside source static 172.16.1.100 211.183.3.100
 
 2 . inside 및 outside 구성하기
 * 참고로 inside는 다음 그림과 같이 세 개임
-* ![img_322.png](img_322.png)
+* ![img_322](https://user-images.githubusercontent.com/104918800/178500277-d2cd449c-cac1-4efa-b138-bb455147ffaf.png)
 
 ```commandline
 HQ(config-if)#int fa0/0
@@ -385,8 +385,8 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 
 4 . 외부에서 ssh로 접속해 보기
 * 아래와 같이 KEX 설정 후, 211.183.3.100 에 SSH로 접속해 보자
-* ![img_332.png](img_332.png)
-* ![img_331.png](img_331.png)
+* ![img_332](https://user-images.githubusercontent.com/104918800/178500306-38e20341-1dc7-4d6a-bbad-3a76616ef3b0.png)
+* ![img_331](https://user-images.githubusercontent.com/104918800/178500300-1a662a68-94ab-4f4e-8d09-dfaa2b6ec73f.png)
 
 <br>
 <hr>
@@ -399,7 +399,7 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 
 <br>
 
-* ![img_323.png](img_323.png)
+* ![img_323](https://user-images.githubusercontent.com/104918800/178500279-1d6dc783-9601-4ca7-9cb5-901cd5945d0d.png)
 * DHCP 시나리오
   1. 본사 내부는 172.16.2.0/24 에서 주소를 할당받는다. 지사내부는 192.168.1XX.0/24 할당받는다.
   2. 각 네트워크에서 1~100 까지는 내부적으로 사용이 예약되어 있어 실제로 클라이언트들이 제공받는 주소는 172.16.1.101~ 과 192.168.1XX.101~ 가 된다
@@ -438,8 +438,8 @@ HQ(dhcp-config)#dns 8.8.8.8
 3 . CentOS2를 full Clone하여 CentOS3을 생성
 * CentOS3에서 vmnet2 인터페이스를 vmnet3으로 변경한다
 * CentOS2,3을 모두 실행하고 interface설정 창에서 정적 구성을 DHCP로 변경하여 IP주소를 받아 오는지 여부 확인
-    * ![img_324.png](img_324.png)
-    * ![img_325.png](img_325.png)
+    * ![img_324](https://user-images.githubusercontent.com/104918800/178500280-9f19c13c-254f-4b66-9c5a-bf0b1ea06abf.png)
+    * ![img_325](https://user-images.githubusercontent.com/104918800/178500284-84702654-166b-4420-8de7-f5e63e2b4433.png)
 
 <br>
 
@@ -473,7 +473,7 @@ BR(config-if)#ip helper-address 10.10.10.1
 * 즉, 다음 조건을 위한 구성
   * 본사 내부 PC들은 211.183.3.101 하나를 이용하여 인터넷을 사용한다
   * 지사 내부 PC들은 211.183.3.102 하나를 이용하여 인터넷을 사용한다
-  * ![img_327.png](img_327.png)
+  * ![img_327](https://user-images.githubusercontent.com/104918800/178500289-a78e586e-5018-4806-ac5d-e5a223b2b88d.png)
 
 <br>
 
@@ -571,7 +571,7 @@ tcp 211.183.3.101:40646 172.16.2.101:40646 54.149.98.7:443   54.149.98.7:443
      * 특정 aws root 계정 하에서 생성된 일반 사용자 (db 관리, 개발, 운영자 구분 가능)
      * 각 계정별로 접근할 수 있는 서비스에 대해 지정할 수 있고, 해당 사용자가 로그인 하는 방법도 선택할 수 있다
      * access key ID, access key를 사용하여 자신의 개발환경(혹은 linux와 같은 환경)에서 자신의 로컬 환경과 aws 환경을 연결하여 사용할 수 있음
-     * ![img_328.png](img_328.png) <br> <br>
+     * ![img_328](https://user-images.githubusercontent.com/104918800/178500290-0f1ceafc-511a-4397-be78-50a7532daf6f.png) <br> <br>
 
 <br>
 
@@ -683,11 +683,11 @@ ssh: connect to host 172.16.1.100 port 22: No route to host
 
 4 . 외부에서 접속하기
 * putty 로 ssh 접속 시도(내 PC)
-* ![img_329.png](img_329.png)
+* ![img_329](https://user-images.githubusercontent.com/104918800/178500293-55d4de94-f80d-4e4f-a981-8e62e1cc3438.png)
 
 <br>
 
 5 . 정리
-* ![img_330.png](img_330.png)
+* ![img_330](https://user-images.githubusercontent.com/104918800/178500296-22b7d30d-678a-497f-9282-414b0896faf6.png)
 
 
