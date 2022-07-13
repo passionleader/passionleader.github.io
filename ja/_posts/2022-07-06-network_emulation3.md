@@ -4,7 +4,7 @@
 # 영문으로 같은 내용 작성 시 id 같아야 함
 lng_pair: id_kakao_emulation3
 # 영문으로 작성하는 경우 영문제목
-title: [네트워크]애뮬레이션 실습3 - 본사와 지사의 라우터 설정
+title: (네트워크)애뮬레이션 실습3 - 본사와 지사의 라우터 설정
 
 # 저자 설정(생략 가능)
 #author: initializer
