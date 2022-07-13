@@ -78,7 +78,7 @@ date: 2022-07-13 10:48:51 +0900
 
 ## 네트워크에서 사용하는 고가용성
 
-![img_339.png](img_339.png)
+![img_339](https://user-images.githubusercontent.com/104918800/178779027-fa1e2eff-3dde-4591-a5a1-664fac753f60.png)
 
 * FHRP: First Hop Redundancy Protocol
   1. Hot Standby Router(Routing 아님) Protocol - Cisco 전용, 벤더 의존적인 프로토콜
@@ -88,7 +88,7 @@ date: 2022-07-13 10:48:51 +0900
 <br>
 
 * FHRP 작동 방식
-  * ![img_340.png](img_340.png)
+  * ![img_340](https://user-images.githubusercontent.com/104918800/178779029-66489db0-41d2-4aff-aed9-f6d56086f3c2.png)
 
 <br>
 
@@ -100,7 +100,7 @@ date: 2022-07-13 10:48:51 +0900
 <br>
 
 * HSRP 작동 예시
-  * ![img_341.png](img_341.png)
+  * ![img_341](https://user-images.githubusercontent.com/104918800/178779033-a367eeed-9721-4d91-8c5a-28130c19c38c.png)
 
 <br>
 <hr>
@@ -108,7 +108,7 @@ date: 2022-07-13 10:48:51 +0900
 ## FHRP 실습
 
 1 . 다음과 같이 구성한다
-* ![img.png](img_334.png)
+* ![img_334](https://user-images.githubusercontent.com/104918800/178779036-9a993c00-595b-4cf0-b6c4-dec6799485ee.png)
 
 <br>
 
@@ -182,8 +182,8 @@ SK(config-if)#ip nat inside
 <br>
 
 6 . centOS 1번 실행
-* gateway 주소 변경 <br> ![img_335.png](img_335.png)
-* 라우팅 테이블 확인  <br> ![img_337.png](img_337.png)
+* gateway 주소 변경 <br> ![img_335](https://user-images.githubusercontent.com/104918800/178779040-bb9b5d8e-9131-4fcd-86aa-8b2737dde826.png)
+* 라우팅 테이블 확인  <br> ![img_337](https://user-images.githubusercontent.com/104918800/178779047-cafbb633-a0e0-4c0a-b28f-d3da89b3e5bb.png)
 
 <br>
 
@@ -219,7 +219,7 @@ KT(config-if)#standby 10 track f0/0 20
 9 . KTISP를 통하는 라우터를 종료시켜 보면
 * KT는 Standby가 되며, SK는 Active가 된다
 * 다시 KT를 켜면, Active를 되찾아 온다
-* ![img_2.png](img_336.png)
+* ![img_336](https://user-images.githubusercontent.com/104918800/178779044-40042afe-f0e9-4842-b95b-9ccf5a3a13cc.png)
 
 ```commandline
 KT(config)#int f0/0
@@ -242,7 +242,7 @@ KT(config-if)#no sh
 * <br>
 
 1 . 다음과 같이 구성한다
-* ![img_4.png](img_338.png)
+* ![img_338](https://user-images.githubusercontent.com/104918800/178779022-d611ab24-e7a8-4d84-89a3-44c491dc47c7.png)
 
 <br>
 
