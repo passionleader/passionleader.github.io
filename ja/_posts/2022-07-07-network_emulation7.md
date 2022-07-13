@@ -4,14 +4,14 @@
 # 영문으로 같은 내용 작성 시 id 같아야 함
 lng_pair: id_kakao_emulation7
 # 영문으로 작성하는 경우 영문제목
-title: 네트워크 애뮬레이션 실습7 - DHCP
+title: [네트워크]애뮬레이션 실습7 - DHCP
 
 # 저자 설정(생략 가능)
 #author: initializer
 
 # 카테고리와 태그 설정
 category: 카카오클라우드스쿨
-tags: [network, linux, GNS3, Wireshark, router]
+tags: [network, GNS3, router]
 
 # 섬네일 이미지
 img: "https://www.gns3.com/assets/custom/gns3/images/logo-colour.png"

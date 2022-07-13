@@ -2,9 +2,9 @@
 # 속성은 대쉬 내부에 작성하세요
 
 # 영문으로 같은 내용 작성 시 id 같아야 함
-lng_pair: id_kakao_emulation8
+lng_pair: id_kakao_emulation9
 # 영문으로 작성하는 경우 영문제목
-title: 네트워크 애뮬레이션 실습9 - 지금껏 배운 것 + ACL
+title: [네트워크]애뮬레이션 실습9 - 지금껏 배운 것 + ACL
 
 # 저자 설정(생략 가능)
 #author: initializer
