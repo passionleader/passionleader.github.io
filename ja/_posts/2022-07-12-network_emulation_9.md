@@ -525,6 +525,7 @@ HQ(config)#ip nat inside source list bradd pool BRPC overload
 
 4 . 확인해 보기
 * CentOS 2&3에서 naver.com 접속 시
+
 ```commandline
 HQ#show ip nat tr | in 172.16.2.101  (본사에서 접속)
 HQ#show ip nat tr | in 192.168.105.101 (지사에서 접속)
@@ -665,6 +666,7 @@ HQ(config-subif)#ip access-group 102 out
 
 3 . CentOS2,3 에서 확인하기
 * ssh 차단, ICMP 등 허용된 상태
+
 ```bash
 [root@localhost ~]# ping 172.16.1.100
 PING 172.16.1.100 (172.16.1.100) 56(84) bytes of data.
