@@ -691,5 +691,6 @@ ssh: connect to host 172.16.1.100 port 22: No route to host
 
 **5 . 정리**
 * ![img_330](https://user-images.githubusercontent.com/104918800/178500296-22b7d30d-678a-497f-9282-414b0896faf6.png)
-
+  * SSH에서의 ACL을 실습하기 위해 SSH 전체 포트를 막아 둔 상태
+  * 실제 상황에서는 SSH 외에 안쓰는 다른 포트는 막아 두어야 한다
 
