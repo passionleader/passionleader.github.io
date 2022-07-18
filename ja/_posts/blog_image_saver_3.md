@@ -28,3 +28,14 @@
 ![img_26](https://user-images.githubusercontent.com/104918800/179400137-5eb86d5b-4218-4431-889f-138a42b4cff7.png)
 ![img_27](https://user-images.githubusercontent.com/104918800/179400138-ab643afc-93aa-4826-90cf-d7c6560024bb.png)
 ![img_28](https://user-images.githubusercontent.com/104918800/179400139-00f296c2-c1c4-45bd-b5d3-623ff324efc9.png)
+![img_29](https://user-images.githubusercontent.com/104918800/179519371-95baaac9-63f4-45f4-bd43-3aafff8f98e2.png)
+
+
+# LINUX Start
+
+
+
+
+
+
+
