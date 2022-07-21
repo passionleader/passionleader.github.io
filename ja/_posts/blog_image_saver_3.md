@@ -32,6 +32,13 @@
 
 
 # LINUX Start
+![img_5](https://user-images.githubusercontent.com/104918800/180102113-b48b3e54-bed5-4742-bd51-2bd3950bf5b7.png)
+![img](https://user-images.githubusercontent.com/104918800/180102117-607a3787-d51f-414d-a847-13aba15d4a13.png)
+![img_1](https://user-images.githubusercontent.com/104918800/180102119-56b8470a-1be6-4770-9dc3-08dfaab1c592.png)
+![img_2](https://user-images.githubusercontent.com/104918800/180102120-499917a7-82a4-4c8c-b447-2fe218178f08.png)
+![img_3](https://user-images.githubusercontent.com/104918800/180102143-ed4810bf-b3aa-4727-8fd4-babc16d9bfbe.png)
+![img_4](https://user-images.githubusercontent.com/104918800/180102155-eb7449b7-78e1-462f-ae24-e80b510cb889.png)
+
 
 
 
