@@ -5,14 +5,10 @@
 {%-endcomment-%}
 
 <div id="disqus_thread">
- <script>
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://passionleader-blog.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
+  {%- if site.data.owner.disqus_shortname == nil or site.data.owner.disqus_shortname == empty -%}
+  {%comment-%} for debug purpose {%-endcomment-%}
+  <script>alert("disqus disqus_shortname is not defined. You can disable Disqus from _data/conf/posts.yml [comments.disqus.enable]");</script>
+  {%- endif -%}
 </div>
 
 {%comment-%} no script message {%-endcomment-%}
