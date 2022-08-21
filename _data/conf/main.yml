@@ -283,10 +283,10 @@ meta:
 google:
   analytics:
     # disable this feature entirely for development or production env.
-    ignore: development
+    # # # #ignore: development
   site_verification:
     # disable this feature entirely for development or production env.
-    # # #  # MODMODMODMODignore: development
+    # # # #ignore: development
 
 ###########################################################
 #                Cookie consent
