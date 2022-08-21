@@ -1,17 +1,19 @@
-{%-comment-%}
-  Mr. Green Jekyll Theme - v1.0.1 (https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)
-  Copyright (c) 2022 Mr. Green's Workshop https://www.MrGreensWorkshop.com
-  Licensed under MIT
-{%-endcomment-%}
-
-<div id="disqus_thread">
-  {%- if site.data.owner.disqus_shortname == nil or site.data.owner.disqus_shortname == empty -%}
-  {%comment-%} for debug purpose {%-endcomment-%}
-  <script>alert("disqus disqus_shortname is not defined. You can disable Disqus from _data/conf/posts.yml [comments.disqus.enable]");</script>
-  {%- endif -%}
-</div>
-
-{%comment-%} no script message {%-endcomment-%}
-<noscript>
-  {{ site.data.lang[lng].post.comments.disqus.noscript }}
-</noscript>
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://passionleader-blog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
