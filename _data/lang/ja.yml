@@ -172,7 +172,7 @@ meta_common_description: 이 블로그는 &meta_info $site_brand 테마를 사�
 
 auto_content:
   title: 샘플 포스트(자동 생성됨)
-  greeting: "김성수입니다!"
+  greeting: "안녕하세요! 성수의 포트폴리오 입니다!"
   text: *meta_info
   more_info: 더 알아보기
   auto_generated_text: 공부한 것들을 정리하기 위한 블로그를 꾸리려고 합니다
