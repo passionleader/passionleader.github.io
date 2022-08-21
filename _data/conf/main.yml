@@ -244,7 +244,7 @@ meta:
   hreflang: false
   # please note that google does not use keywords, but other search engines may.
   keywords: true
-  google_site_verify: false
+  google_site_verify: true
   twitter_card: true
   open_graph: true
   open_graph_locale: true
@@ -283,10 +283,10 @@ meta:
 google:
   analytics:
     # disable this feature entirely for development or production env.
-    # # # #ignore: development
+    ignore: disable
   site_verification:
     # disable this feature entirely for development or production env.
-    # # # #ignore: development
+    ignore: disable
 
 ###########################################################
 #                Cookie consent
