@@ -135,7 +135,7 @@ pager_page_numbers_first_last_buttons: true
 #                Comments
 ###########################################################
 comments:
-  # to enable comments please set to true, comments can be disabled on any post by setting comments_disable: true
+  # to enable comments please set to true, comments can be disabled on any post by setting comments_disable: false
   enable: true
   # make sure disqus_shortname is set in _data/owner.yml
   disqus:
@@ -149,7 +149,7 @@ comments:
     # 2. scroll_to_load
     # 3. scroll_to_load_but_mobile_click_to_load
     # 4. none of above (commented or "") load with page load (not recommended)
-    load_mode: click_to_load
+    load_mode: scroll_to_load
     consent:
       # to enable consent for disqus comments please set to true
       # make sure load_mode is scroll_to_load or scroll_to_load_but_mobile_click_to_load
