@@ -175,7 +175,7 @@ auto_content:
   greeting: Sorry!
   text: *meta_info
   more_info: Learn More.
-  auto_generated_text: English is not offered for now😥
+  auto_generated_text: English is not offered for now😥. Choose KOREAN via left sidebar
 
 cookie_consent:
   privacy_policy_link_text: *privacy_policy_title
